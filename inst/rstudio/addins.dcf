@@ -1,0 +1,4 @@
+Name: Add function to the R/functions.R file
+Description: Add a definition for the function call at the cursor position.
+Binding: rs_tar_add_fn
+Interactive: false

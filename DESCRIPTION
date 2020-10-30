@@ -1,0 +1,23 @@
+Package: tarflow
+Type: Package
+Title: Setup a project in the tarflow style for using the targets package
+Version: 0.0.1
+Author: Todd Grabowsky
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Sets up an R workflow in the tarflow style, using {targets}. Inspired by {dflow}
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    usethis,
+    glue,
+    magrittr,
+    purrr,
+    readr,
+    rstudioapi,
+    utils,
+    rlang
+Remotes:
+  wlandau/targets,
+  wlandau/tarchetypes
