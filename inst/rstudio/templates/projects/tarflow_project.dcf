@@ -2,4 +2,3 @@ Binding: tarflow_project
 Title: {tarflow} Project
 OpenFiles: _targets.R, R/functions.R
 Icon: targets_hex.png
-

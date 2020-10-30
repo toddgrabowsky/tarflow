@@ -2,10 +2,10 @@
 ##'
 ##' Creates files and directories according to the tarflow template.
 ##'
-##' @title use_tarflow
+##' @title tarflow_project
 ##' @return Nothing. Modifies your workspace.
 ##' @export
-use_tarflow <- function(){
+tarflow_project <- function(){
   usethis::use_directory("R")
   usethis::use_directory("data")
   usethis::use_template("_targets.R", package = "tarflow")
