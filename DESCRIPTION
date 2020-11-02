@@ -20,3 +20,5 @@ Imports:
 Remotes:
   wlandau/targets,
   wlandau/tarchetypes
+URL: https://github.com/toddgrabowsky/tarflow
+BugReports: https://github.com/toddgrabowsky/tarflow/issues
