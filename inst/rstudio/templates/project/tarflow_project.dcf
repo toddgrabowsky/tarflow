@@ -2,3 +2,9 @@ Binding: tarflow_project
 Title: {tarflow} Project
 OpenFiles: _targets.R, R/functions.R
 Icon: targets_hex.png
+
+Parameter: add_data
+Widget: CheckboxInput
+Label: Add 'data' folder?
+Default: On
+Position: left

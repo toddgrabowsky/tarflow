@@ -4,12 +4,12 @@
 \alias{tarflow_project}
 \title{tarflow_project}
 \usage{
-tarflow_project(path, ...)
+tarflow_project(path, add_data)
 }
 \arguments{
 \item{path}{the path for the new project.}
 
-\item{...}{other project parameters.}
+\item{add_data}{flag for whether to add a data folder.}
 }
 \value{
 Nothing. Modifies your workspace.

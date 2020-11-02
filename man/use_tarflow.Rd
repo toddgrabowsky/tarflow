@@ -4,7 +4,12 @@
 \alias{use_tarflow}
 \title{use_tarflow}
 \usage{
-use_tarflow()
+use_tarflow(path = getwd(), data = TRUE)
+}
+\arguments{
+\item{path}{where to initialize the tarflow project}
+
+\item{data}{whether or not to include a 'data' directory}
 }
 \value{
 Nothing. Modifies your workspace.

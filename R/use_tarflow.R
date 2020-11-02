@@ -2,12 +2,14 @@
 ##'
 ##' Creates files and directories according to the tarflow template.
 ##'
+##' @export
 ##' @title use_tarflow
 ##' @return Nothing. Modifies your workspace.
-##' @export
-use_tarflow <- function(){
-  usethis::use_directory("R")
-  usethis::use_directory("data")
-  usethis::use_template("_targets.R", package = "tarflow")
-  usethis::use_template("functions.R", save_as = "/R/functions.R", package = "tarflow")
+##' @param path where to initialize the tarflow project
+##' @param data whether or not to include a 'data' directory
+use_tarflow <- function(path = getwd(), data = TRUE) {
+  usethis::use_directory(file.path(path ,"R"))
+  if (data) usethis::use_directory(file.path(path, "data"))
+  usethis::use_template("_targets.R", save_as = file.path(path, "_targets.R"), package = "tarflow")
+  usethis::use_template("functions.R", save_as = file.path(path, "R", "functions.R"), package = "tarflow")
 }

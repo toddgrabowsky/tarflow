@@ -64,7 +64,7 @@ write_fn_file <- function(fn_name, fn_defn, fn_dir = "R", fn_file = "functions.R
     return(invisible(NULL))
   }
 
-  readr::write_file(x = fn_defn, file = target_file, append = T)
+  readr::write_file(x = fn_defn, path = target_file, append = T)
   message("tarflow Wrote function to ", target_file)
 
   invisible(fn_defn)
@@ -103,7 +103,7 @@ build_internal_roxygen <- function() {
 build_external_roxygen <- function(fn_arg_names) {
 
   head <- glue::glue(
-    "\n",
+    "\n\n",
     "##' @title \n",
     "##' @description \n",
     "##' @return \n",
@@ -116,7 +116,7 @@ build_external_roxygen <- function(fn_arg_names) {
   tail <-
     glue::glue(
       "##' @examples \n",
-      "##' ",
+      "##' \n",
       "##' @export"
       )
 

@@ -4,7 +4,7 @@ Title: Setup a project in the tarflow style for using the targets package
 Version: 0.0.1
 Author: Todd Grabowsky
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: Sets up an R workflow in the tarflow style, using {targets}. Inspired by {dflow}
+Description: Sets up an R workflow in the tarflow style, using {targets}. Inspired by Miles McBain's {dflow} package.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
