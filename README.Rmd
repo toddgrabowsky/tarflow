@@ -23,11 +23,8 @@ remotes::install_github("toddgrabowsky/tarflow")
 
 ```{r usage, eval=FALSE}
 # creates the following project scaffolding
-./
- |_ _targets.R
- |
- |_ R/
- |  |_functions.R
- |
- |_ data/
+├── _targets.R
+├── R/
+├──── functions.R
+├── data/
 ```
