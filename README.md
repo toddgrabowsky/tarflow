@@ -20,6 +20,7 @@ scaffolding in an existing RStudio project using:
 `tarflow::use_tarflow()`
 
 ``` r
+# creates the following project scaffolding
 ├── _targets.R
 ├── R/
 ├──── functions.R
