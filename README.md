@@ -21,8 +21,11 @@ scaffolding in an existing RStudio project using:
 
 ``` r
 # creates the following project scaffolding
-├── _targets.R
-├── R/
-├──── functions.R
-├── data/
+./
+ |_ _targets.R
+ |
+ |_ R/
+ |  |_functions.R
+ |
+ |_ data/
 ```
