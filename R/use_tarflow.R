@@ -7,7 +7,7 @@
 ##' @return Nothing. Modifies your workspace.
 ##' @param path where to initialize the tarflow project
 ##' @param data whether or not to include a 'data' directory
-use_tarflow <- function(path = getwd(), data = TRUE) {
+use_tarflow <- function(path = ".", data = TRUE) {
   usethis::use_directory(file.path(path ,"R"))
   if (data) usethis::use_directory(file.path(path, "data"))
   usethis::use_template("_targets.R", save_as = file.path(path, "_targets.R"), package = "tarflow")
