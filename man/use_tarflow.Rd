@@ -4,10 +4,10 @@
 \alias{use_tarflow}
 \title{use_tarflow}
 \usage{
-use_tarflow(path = getwd(), data = TRUE)
+use_tarflow(path = ".", data = TRUE)
 }
 \arguments{
-\item{path}{where to initialize the tarflow project}
+\item{path}{where to initialize the tarflow project (NOTE: this will be relative to your Rproj home directory)}
 
 \item{data}{whether or not to include a 'data' directory}
 }
