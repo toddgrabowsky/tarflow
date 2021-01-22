@@ -3,7 +3,8 @@
 
 An opinionated lightweight template for smooth
 {[targets](https://github.com/wlandau/targets)} flows. Inspired by [Mile
-McBain’s](https://github.com/MilesMcBain) {[dflow]()} package.
+McBain’s](https://github.com/MilesMcBain)
+{[dflow](https://github.com/MilesMcBain/dflow)} package.
 
 ## Installation
 
