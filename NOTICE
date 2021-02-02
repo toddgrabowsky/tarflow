@@ -1,6 +1,31 @@
-# MIT License
+{tarflow} includes code from other open source projects. The following
+is a list of these projects (a full copy of the license agreement
+used by these projects is included below):
 
-Copyright (c) 2020 Todd Grabowsky
+- Miles McBain's {dflow} package
+- Miles McBain's {fnmate} package
+
+The code in the "rstudio-addin.R" and "tar_add_fn.R" files is derived
+almost entirely from the {fnmate} package and is licensed to you under
+the MIT License, the terms of which are included below. You can obtain
+the source code for {fnmate} at:
+
+https://github.com/MilesMcBain/fnmate
+
+The code in the "use_tarflow.R" file is derived heavily from
+the {dflow} package and is licensed to you under the MIT License,
+the terms of which are included below. You can obtain the source code
+for {dflow} at:
+
+https://github.com/MilesMcBain/dflow
+
+
+
+
+MIT License
+-----------------------------------------------------------------------------
+
+Copyright (c) 2019 Miles McBain
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
