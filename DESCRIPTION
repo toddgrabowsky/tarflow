@@ -2,7 +2,14 @@ Package: tarflow
 Type: Package
 Title: Setup a project in the tarflow style for using the targets package
 Version: 0.0.2
-Author: Todd Grabowsky
+Authors@R: c(person(given = "Todd",
+                    family = "Grabowsky",
+                    email = "todd.grabowsky@gmail.com",
+                    role = c("aut", "cre")),
+             person(given = "Miles",
+                    family = "McBain",
+                    email = "miles.mcbain@gmail.com",
+                    role = c("cph")))
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: Sets up an R workflow in the tarflow style, using {targets}. Inspired by Miles McBain's {dflow} package.
 License: What license is it under?
